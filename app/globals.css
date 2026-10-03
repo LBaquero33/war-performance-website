@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #050507;
+}
+
+.site-frame-shell,
+.site-frame {
+  width: 100%;
+  height: 100%;
+}
+
+.site-frame {
+  display: block;
+  border: 0;
+  background: #050507;
+}

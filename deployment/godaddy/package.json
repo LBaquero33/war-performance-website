@@ -1,0 +1,14 @@
+{
+  "name": "war-performance",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server.mjs",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {}
+}
